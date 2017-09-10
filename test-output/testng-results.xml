@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="12" total="16" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="175434" started-at="2017-08-27T03:07:22Z" finished-at="2017-08-27T03:10:18Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="175434" started-at="2017-08-27T03:07:22Z" finished-at="2017-08-27T03:10:18Z">
+      <class name="testcases.TC005_DeleteLead">
+        <test-method status="PASS" signature="setValues()[pri:0, instance:testcases.TC005_DeleteLead@67c67e]" name="setValues" is-config="true" duration-ms="0" started-at="2017-08-27T08:38:50Z" finished-at="2017-08-27T08:38:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC005_DeleteLead@67c67e]" name="beforeMethod" is-config="true" duration-ms="14558" started-at="2017-08-27T08:38:50Z" finished-at="2017-08-27T08:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="CLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC005_DeleteLead@67c67e]" name="CLead" duration-ms="72128" started-at="2017-08-27T08:39:05Z" data-provider="fetchData" finished-at="2017-08-27T08:40:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Demo Sales Manager]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[No records to display]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC005_DeleteLead@67c67e]" name="afterMethod" is-config="true" duration-ms="802" started-at="2017-08-27T08:40:17Z" finished-at="2017-08-27T08:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.TC005_DeleteLead -->
+      <class name="testcases.TC006_DupLead">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcases.TC006_DupLead@1318ec4]" name="beforeSuite" is-config="true" duration-ms="1336" started-at="2017-08-27T08:37:21Z" finished-at="2017-08-27T08:37:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.TC006_DupLead@1318ec4]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-08-27T08:37:22Z" finished-at="2017-08-27T08:37:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setValues()[pri:0, instance:testcases.TC006_DupLead@1318ec4]" name="setValues" is-config="true" duration-ms="0" started-at="2017-08-27T08:37:22Z" finished-at="2017-08-27T08:37:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC006_DupLead@1318ec4]" name="beforeMethod" is-config="true" duration-ms="14648" started-at="2017-08-27T08:37:23Z" finished-at="2017-08-27T08:37:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="CLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC006_DupLead@1318ec4]" name="CLead" duration-ms="67741" started-at="2017-08-27T08:37:38Z" data-provider="fetchData" finished-at="2017-08-27T08:38:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Demo Sales Manager]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Duplicate Lead]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC006_DupLead@1318ec4]" name="afterMethod" is-config="true" duration-ms="4467" started-at="2017-08-27T08:38:46Z" finished-at="2017-08-27T08:38:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC006_DupLead@1318ec4]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-08-27T08:40:18Z" finished-at="2017-08-27T08:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcases.TC006_DupLead@1318ec4]" name="afterSuite" is-config="true" duration-ms="1029" started-at="2017-08-27T08:40:18Z" finished-at="2017-08-27T08:40:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testcases.TC006_DupLead -->
+      <class name="testcases.TC003_CreateLead">
+        <test-method status="PASS" signature="setValues()[pri:0, instance:testcases.TC003_CreateLead@127bd23]" name="setValues" is-config="true" duration-ms="0" started-at="2017-08-27T08:38:50Z" finished-at="2017-08-27T08:38:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC003_CreateLead@127bd23]" name="beforeMethod" is-config="true" duration-ms="14524" started-at="2017-08-27T08:38:50Z" finished-at="2017-08-27T08:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="CLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC003_CreateLead@127bd23]" name="CLead" duration-ms="46625" started-at="2017-08-27T08:39:05Z" data-provider="fetchData" finished-at="2017-08-27T08:39:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Demo Sales Manager]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PradeepKiller]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[yuvaraj]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Bhoopathy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC003_CreateLead@127bd23]" name="afterMethod" is-config="true" duration-ms="2759" started-at="2017-08-27T08:39:51Z" finished-at="2017-08-27T08:39:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.TC003_CreateLead -->
+      <class name="testcases.TC004_EditLead">
+        <test-method status="PASS" signature="setValues()[pri:0, instance:testcases.TC004_EditLead@1213b92]" name="setValues" is-config="true" duration-ms="0" started-at="2017-08-27T08:37:22Z" finished-at="2017-08-27T08:37:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC004_EditLead@1213b92]" name="beforeMethod" is-config="true" duration-ms="14648" started-at="2017-08-27T08:37:23Z" finished-at="2017-08-27T08:37:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="CLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC004_EditLead@1213b92]" name="CLead" duration-ms="66125" started-at="2017-08-27T08:37:38Z" data-provider="fetchData" finished-at="2017-08-27T08:38:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Demo Sales Manager]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Babu]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[yuvaraj]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[yuvaraj]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC004_EditLead@1213b92]" name="afterMethod" is-config="true" duration-ms="6082" started-at="2017-08-27T08:38:44Z" finished-at="2017-08-27T08:38:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.TC004_EditLead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
